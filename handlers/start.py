@@ -18,7 +18,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AwesomeSupportt).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/osmanigroupbot).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -43,11 +43,11 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [   
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/LaylaList"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/AwesomeSupport")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/teamosmani"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/osmanigroupbot")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/HEROGAMERS1")
+                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/ribajosmani")
                      ],
                      [
                            InlineKeyboardButton("📚 Commands", callback_data="cbcmds")
@@ -63,11 +63,11 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
 		[
-                    InlineKeyboardButton("Updates Channel", url="https://t.me/LaylaList"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/AwesomeSupport")
+                    InlineKeyboardButton("Updates Channel", url="https://t.me/teamosmani"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/osmanigroupbot")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/HEROGAMERS1")	
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/ribajosmani")	
                 ],
                 [
                      InlineKeyboardButton("📚 Commands", callback_data="cbcmds")
@@ -84,8 +84,8 @@ async def gstart(_, message: Message):
         text="**Music Bot Is Online ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/AwesomeSupport"),
-            InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/LaylaList")
+            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/osmanigroupbot"),
+            InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/Teamosmani")
             ],
             [
             
@@ -128,8 +128,8 @@ __× First Add Me To Your Group..
 </b>""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/AwesomeSupport"),
-              InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/LaylaList")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/osmanigroupbot"),
+              InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/Teamosmani")
               ],[
               InlineKeyboardButton("🏡 BACK TO HOME", callback_data="cbstart")
               ]]
