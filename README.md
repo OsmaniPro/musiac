@@ -66,12 +66,9 @@ License -> https://github.com/QueenArzoo/VCPvtBot/blob/main/LICENSE
 ```
 </details>
 
-### Deploy To Heroku 📡</h4>
+### Deploy To RAILWAY 📡</h1>
 
-<p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/QueenArzoo/VCPvtBot">
-     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
-  </a>
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/FqpC3y?referralCode=osmani)
 
 ### Session String 📼
 Make String Session Using This Bot [@PyroStringRobot](https://t.me/PyroStringRobot)
